@@ -4,9 +4,9 @@
 
 So you get my plugin by multiple ways...
 
-1. Using `git clone https:// to_your_plugins_directory` (Recommended so you can use `git pull` to "update")
-   EXAMPLE: `git clone https:// ~/.local/share/endless-sky/plugins/ShipModded` to automatically drop it into the Plugins directory too.
-2. Going to [Git Repo]() and selecting to download it as .zip or .tar.gz or some other compressed file (Not Recommended as it doesn't update easily)
+1. Using `git clone https://github.com/Beanzilla/ShipModded.git to_your_plugins_directory` (Recommended so you can use `git pull` to "update")
+   EXAMPLE: `git clone https://github.com/Beanzilla/ShipModded.git ~/.local/share/endless-sky/plugins/ShipModded` to automatically drop it into the Plugins directory too.
+2. Going to [Git Repo](https://github.com/Beanzilla/ShipModded) and selecting to download it as .zip or .tar.gz or some other compressed file (Not Recommended as it doesn't update easily)
 
 From there locate your Endless Sky Plugins directory...
 
