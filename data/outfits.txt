@@ -1,0 +1,149 @@
+outfit "Shield Module"
+	category "Systems"
+	cost 55600
+	thumbnail "outfit/small shield module"
+	"shield generation" 0.7
+	"energy consumption" 0.2
+	description "The SM can recharge shield, but draws power all the time."
+
+outfit "Shield Booster"
+	category "Systems"
+	cost 5600
+	thumbnail "outfit/small shield module"
+	"shields" 293
+	"energy consumption" 0.1
+	description "The SB can increase shield capacity, but draws power all the time."
+
+outfit "Repair Module"
+	category "Systems"
+	cost 55300
+	thumbnail "outfit/small repair module"
+	"hull repair rate" 0.6
+	"energy consumption" 0.15
+	description "The RM can repair hull, but continuously draws power."
+
+outfit "Hull Plating"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/interference plating"
+	"hull" 260
+	"energy consumption" 0.01
+	description "The HP adds additional Hull to the ship, but draws power all the time."
+
+outfit "Refuel System"
+	category "Systems"
+	cost 22000
+	thumbnail "outfit/small collector module"
+	"ramscoop" 25
+	"energy consumption" 0.19
+	description "The RS can refuel a ship in deep space, continuously draws power."
+
+outfit "Cargo Buffer"
+	category "Systems"
+	cost 1000
+	thumbnail "outfit/blue screwdriver"
+	"cargo space" 25
+	"energy consumption" 0.06
+	description "Want to carry more cargo, at the cost of power you now can!"
+
+outfit "Anti-Scan Buffer"
+	category "Systems"
+	cost 1000
+	thumbnail "outfit/blue screwdriver"
+	"scan interference" 1
+	"energy consumption" 0.01
+	description "This prevents your ship from exposing illegal outfits/cargo etc, at the cost of power."
+
+outfit "Radar Jam Buffer"
+	category "Systems"
+	cost 1000
+	thumbnail "outfit/blue screwdriver"
+	"radar jamming" 14
+	"energy consumption" 0.02
+	description "This prevents missiles based on radar to 'see' your ship, at the cost of power."
+
+outfit "Bunks Buffer"
+	category "Systems"
+	cost 1000
+	thumbnail "outfit/blue screwdriver"
+	"bunks" 10
+	"energy consumption" 0.07
+	description "Want to carry more passengers, or perhaps crew to take over another ship, at the cost of power you now can!"
+
+outfit "Outfit Buffer"
+	category "Systems"
+	cost 2100
+	thumbnail "outfit/blue screwdriver"
+	"outfit space" 25
+	"energy consumption" 0.02
+	description "Need more outfits, now you can, but only at the cost of power."
+
+outfit "Weapon Buffer"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/blue screwdriver"
+	"weapon capacity" 25
+	"energy consumption" 0.11
+	description "Want more powerfull weapons, at the cost of power you now can!"
+
+outfit "Engine Buffer"
+	category "Systems"
+	cost 6000
+	thumbnail "outfit/blue screwdriver"
+	"engine capacity" 25
+	"energy consumption" 0.03
+	description "Increase your engine space so you can have bigger engines... at the cost of power."
+
+outfit "Mass Debuffer"
+	category "Systems"
+	cost 500
+	thumbnail "outfit/red screwdriver"
+	"mass" -25
+	"energy consumption" 0.09
+	description "Reduce your mass so you can go faster... at the cost of power."
+
+outfit "AI Crew Replacement"
+	category "Systems"
+	cost 500
+	thumbnail "outfit/android"
+	"required crew" -1
+	"energy consumption" 0.01
+	description "This allows a computer to interact with ship systems, such as turrets, but this does not increase your defense or offense in hand-to-hand combat."
+
+outfit "Thermo Cooler"
+	category "Systems"
+	cost 90000
+	thumbnail "outfit/thermoelectric cooler"
+	"active cooling" 31
+	"cooling energy" 0
+	"energy consumption" 0.1
+	description "This makes your ship cool down very quickly when it's about to overheat... but it drains power continuously."
+
+outfit "Energized Capacitor"
+	category "Power"
+	cost 113000
+	thumbnail "outfit/supercapacitor"
+	"energy capacity" 850
+	"solar collection" 1.6667
+	description "This is a battery combined with builtin solar panels."
+
+outfit "KP-6 Photovoltaic Generator"
+	category "Power"
+	cost 400000
+	thumbnail "outfit/small photovoltaic"
+	"solar collection" 4.1667
+	"energy generation" 16.667
+	description "Designed to mass produce power, with a boost from solar panels."
+
+outfit "Never Destroy"
+	category "Special"
+	thumbnail "outfit/unknown"
+	"shields" 99999
+	"hull" 99999
+	"shield generation" 99999
+	"hull repair rate" 99999
+	"cooling" 99999
+	"energy generation" 99999
+	"ramscoop" 999
+	description "This is clearly a hack"
+	description "This device makes it nearly impossible for your ship to be destroyed."
