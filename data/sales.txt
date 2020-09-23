@@ -22,6 +22,7 @@ outfitter "Ammo South"
 outfitter "Pirate Outfits"
 	"Jump Drive"
 	"Anti-Scan Buffer"
+	"AI Captain Replacement"
 
 # Providing support for all-content-plugin
 outfitter "All Outfits"
@@ -43,3 +44,4 @@ outfitter "All Outfits"
 	"Thermo Cooler"
 	"Energized Capacitor"
 	"Jump Drive"
+	"AI Captain Replacement"

@@ -2,7 +2,7 @@ outfit "Shield Module"
 	category "Systems"
 	cost 55600
 	thumbnail "outfit/small shield module"
-	"shield generation" 0.7
+	"shield generation" 0.9
 	"energy consumption" 0.2
 	description "The SM can recharge shield, but draws power all the time."
 
@@ -10,7 +10,7 @@ outfit "Shield Booster"
 	category "Systems"
 	cost 5600
 	thumbnail "outfit/small shield module"
-	"shields" 293
+	"shields" 393
 	"energy consumption" 0.1
 	description "The SB can increase shield capacity, but draws power all the time."
 
@@ -18,7 +18,7 @@ outfit "Repair Module"
 	category "Systems"
 	cost 55300
 	thumbnail "outfit/small repair module"
-	"hull repair rate" 0.6
+	"hull repair rate" 0.7
 	"energy consumption" 0.15
 	description "The RM can repair hull, but continuously draws power."
 
@@ -34,7 +34,7 @@ outfit "Refuel System"
 	category "Systems"
 	cost 22000
 	thumbnail "outfit/small collector module"
-	"ramscoop" 25
+	"ramscoop" 29
 	"energy consumption" 0.19
 	description "The RS can refuel a ship in deep space, continuously draws power."
 
@@ -74,7 +74,7 @@ outfit "Outfit Buffer"
 	category "Systems"
 	cost 2100
 	thumbnail "outfit/blue screwdriver"
-	"outfit space" 25
+	"outfit space" 30
 	"energy consumption" 0.02
 	description "Need more outfits, now you can, but only at the cost of power."
 
@@ -110,12 +110,21 @@ outfit "AI Crew Replacement"
 	"energy consumption" 0.01
 	description "This allows a computer to interact with ship systems, such as turrets, but this does not increase your defense or offense in hand-to-hand combat."
 
+outfit "AI Captain Replacement"
+	category "Systems"
+	cost 1500
+	thumbnail "outfit/android"
+	"automaton" 1
+	"bunks" -1
+	"energy consumption" 0.01
+	description "Install only one of these on a ship to make it fully computer controlled. (But only after you bought all the AI Crew Replacements, and not on your flagship!)"
+
 outfit "Thermo Cooler"
 	category "Systems"
 	cost 90000
 	thumbnail "outfit/thermoelectric cooler"
-	"active cooling" 31
-	"cooling energy" 0
+	"active cooling" 32
+	"cooling energy" 0.9
 	"energy consumption" 0.1
 	description "This makes your ship cool down very quickly when it's about to overheat... but it drains power continuously."
 
@@ -123,7 +132,7 @@ outfit "Energized Capacitor"
 	category "Power"
 	cost 113000
 	thumbnail "outfit/supercapacitor"
-	"energy capacity" 850
+	"energy capacity" 750
 	"solar collection" 1.6667
 	description "This is a battery combined with builtin solar panels."
 
