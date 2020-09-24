@@ -1,44 +1,77 @@
-outfit "Shield Module"
+outfit "Shield Module V1"
 	category "Systems"
 	cost 55600
 	thumbnail "outfit/small shield module"
 	"shield generation" 0.9
 	"energy consumption" 0.2
-	description "The SM can recharge shield, but draws power all the time."
+	description "The SM V1 can recharge shield, but draws power all the time."
 
-outfit "Shield Booster"
+outfit "Shield Module V2"
+	category "Systems"
+	cost 116760
+	thumbnail "outfit/small shield module"
+	"shield generation" 2.25
+	"energy consumption" 0.4
+	description "The SM V2 can recharge shield, but draws power all the time."
+
+outfit "Shield Booster V1"
 	category "Systems"
 	cost 5600
 	thumbnail "outfit/small shield module"
 	"shields" 393
 	"energy consumption" 0.1
-	description "The SB can increase shield capacity, but draws power all the time."
+	description "The SB V1 can increase shield capacity, but draws power all the time."
 
-outfit "Repair Module"
+outfit "Repair Module V1"
 	category "Systems"
 	cost 55300
 	thumbnail "outfit/small repair module"
 	"hull repair rate" 0.7
 	"energy consumption" 0.15
-	description "The RM can repair hull, but continuously draws power."
+	description "The RM V1 can repair hull, but continuously draws power."
 
-outfit "Hull Plating"
+outfit "Repair Module V2"
+	category "Systems"
+	cost 116130
+	thumbnail "outfit/small repair module"
+	"hull repair rate" 1.75
+	"energy consumption" 0.3
+	description "The RM V2 can repair hull, but continuously draws power."
+
+outfit "Hull Plating V1"
 	category "Systems"
 	cost 5300
 	thumbnail "outfit/interference plating"
 	"hull" 260
 	"energy consumption" 0.01
-	description "The HP adds additional Hull to the ship, but draws power all the time."
+	description "The HP V1 adds additional Hull to the ship, but draws power all the time."
 
-outfit "Refuel System"
+outfit "Duel Module"
+	category "Systems"
+	cost 83175
+	thumbnail "outfit/small repair module"
+	"hull repair rate" 0.8
+	"shield generation" 1.0
+	"energy consumption" 0.35
+	description "This combines a SM V1 and a RM V1 together into a single module."
+
+outfit "Refuel System V1"
 	category "Systems"
 	cost 22000
 	thumbnail "outfit/small collector module"
 	"ramscoop" 29
 	"energy consumption" 0.19
-	description "The RS can refuel a ship in deep space, continuously draws power."
+	description "The RS V1 can refuel a ship in deep space, continuously draws power."
 
-outfit "Cargo Buffer"
+outfit "Refuel System V2"
+	category "Systems"
+	cost 68200
+	thumbnail "outfit/small collector module"
+	"ramscoop" 87
+	"energy consumption" 0.19
+	description "The RS V2 can refuel a ship in deep space, continuously draws power."
+
+outfit "Cargo Buffer V1"
 	category "Systems"
 	cost 1000
 	thumbnail "outfit/blue screwdriver"
@@ -62,7 +95,7 @@ outfit "Radar Jam Buffer"
 	"energy consumption" 0.02
 	description "This prevents missiles based on radar to 'see' your ship, at the cost of power."
 
-outfit "Bunks Buffer"
+outfit "Bunks Buffer V1"
 	category "Systems"
 	cost 1000
 	thumbnail "outfit/blue screwdriver"
@@ -70,7 +103,7 @@ outfit "Bunks Buffer"
 	"energy consumption" 0.07
 	description "Want to carry more passengers, or perhaps crew to take over another ship, at the cost of power you now can!"
 
-outfit "Outfit Buffer"
+outfit "Outfit Buffer V1"
 	category "Systems"
 	cost 2100
 	thumbnail "outfit/blue screwdriver"
@@ -78,7 +111,7 @@ outfit "Outfit Buffer"
 	"energy consumption" 0.02
 	description "Need more outfits, now you can, but only at the cost of power."
 
-outfit "Weapon Buffer"
+outfit "Weapon Buffer V1"
 	category "Systems"
 	cost 4500
 	thumbnail "outfit/blue screwdriver"
@@ -86,7 +119,7 @@ outfit "Weapon Buffer"
 	"energy consumption" 0.11
 	description "Want more powerfull weapons, at the cost of power you now can!"
 
-outfit "Engine Buffer"
+outfit "Engine Buffer V1"
 	category "Systems"
 	cost 6000
 	thumbnail "outfit/blue screwdriver"
@@ -94,7 +127,7 @@ outfit "Engine Buffer"
 	"energy consumption" 0.03
 	description "Increase your engine space so you can have bigger engines... at the cost of power."
 
-outfit "Mass Debuffer"
+outfit "Mass Debuffer V1"
 	category "Systems"
 	cost 500
 	thumbnail "outfit/red screwdriver"
@@ -119,16 +152,25 @@ outfit "AI Captain Replacement"
 	"energy consumption" 0.01
 	description "Install only one of these on a ship to make it fully computer controlled. (But only after you bought all the AI Crew Replacements, and not on your flagship!)"
 
-outfit "Thermo Cooler"
+outfit "Thermo Cooler V1"
 	category "Systems"
 	cost 90000
 	thumbnail "outfit/thermoelectric cooler"
 	"active cooling" 32
 	"cooling energy" 0.9
 	"energy consumption" 0.1
+	description "This makes your ship cool down quickly when it's about to overheat... but it drains power continuously."
+
+outfit "Thermo Cooler V2"
+	category "Systems"
+	cost 189000
+	thumbnail "outfit/thermoelectric cooler"
+	"active cooling" 80
+	"cooling energy" 1.89
+	"energy consumption" 0.21
 	description "This makes your ship cool down very quickly when it's about to overheat... but it drains power continuously."
 
-outfit "Energized Capacitor"
+outfit "Energized Capacitor V1"
 	category "Power"
 	cost 113000
 	thumbnail "outfit/supercapacitor"
@@ -141,6 +183,14 @@ outfit "KP-6 Photovoltaic Generator"
 	cost 400000
 	thumbnail "outfit/small photovoltaic"
 	"solar collection" 4.1667
+	"energy generation" 16.667
+	description "Designed to greatly produce power, with a boost from solar panels."
+
+outfit "KP-9 Photovoltaic Generator"
+	category "Power"
+	cost 840000
+	thumbnail "outfit/small photovoltaic"
+	"solar collection" 10.41675
 	"energy generation" 16.667
 	description "Designed to mass produce power, with a boost from solar panels."
 

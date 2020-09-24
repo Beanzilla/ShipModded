@@ -1,8 +1,8 @@
 --------------------
 ShipModded
- 0.1 BETA
- 06/24/2020
+ 0.2 REL
+ 09/23/2020
  Beanzilla
 --------------------
 
-Make your ship better with ease.
+Make your ship(s) better with ease.
