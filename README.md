@@ -12,7 +12,7 @@ From there locate your Endless Sky Plugins directory...
 
 Linux: `~/.local/share/endless-sky/plugins/`
 
-Windows: `N/A`
+Windows: `C:\Users\yourusername\AppData\Roaming\endless-sky\plugins\` (Replace yourusername with your PC's username)
 
 Unpack/Unzip/Unrar or move the directory/folder into the Endless Sky Plugins directory...
 
