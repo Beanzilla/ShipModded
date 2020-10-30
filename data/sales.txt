@@ -1,37 +1,65 @@
 outfitter "Ammo North"
+	# Version 1
 	"Cargo Buffer V1"
 	"Outfit Buffer V1"
 	"Weapon Buffer V1"
 	"Engine Buffer V1"
 	"Bunks Buffer V1"
+	# Version 2
 	"Cargo Buffer V2"
 	"Outfit Buffer V2"
 	"Weapon Buffer V2"
 	"Engine Buffer V2"
 	"Bunks Buffer V2"
+	# Version 3
+	"Cargo Buffer V3"
+	"Outfit Buffer V3"
+	"Weapon Buffer V3"
+	"Engine Buffer V3"
+	"Bunks Buffer V3"
 	"Radar Jam Buffer"
 	"Anti-Scan Buffer"
+	# Version 1
 	"Mass Debuffer V1"
 	"Shield Booster V1"
 	"Hull Plating V1"
+	# Version 2
 	"Mass Debuffer V2"
 	"Shield Booster V2"
 	"Hull Plating V2"
+	# Version 3
+	"Mass Debuffer V3"
+	"Shield Booster V3"
+	"Hull Plating V3"
+	# Power
+	"KP-3 Photovoltaic Generator"
 	"KP-6 Photovoltaic Generator"
 	"KP-9 Photovoltaic Generator"
+	"KP-12 Photovoltaic Generator"
 
 outfitter "Ammo South"
+	# Version 1
 	"Shield Module V1"
 	"Repair Module V1"
 	"Refuel System V1"
+	# Version 2
 	"Shield Module V2"
 	"Repair Module V2"
 	"Refuel System V2"
+	# Version 3
+	"Shield Module V3"
+	"Repair Module V3"
+	"Refuel System V3"
+	# Extra
 	"AI Crew Replacement"
+	# Cooling
 	"Thermo Cooler V1"
 	"Thermo Cooler V2"
+	"Thermo Cooler V3"
+	# Power Storage
 	"Energized Capacitor V1"
 	"Energized Capacitor V2"
+	"Energized Capacitor V3"
 
 outfitter "Pirate Outfits"
 	"Jump Drive"
@@ -41,37 +69,67 @@ outfitter "Pirate Outfits"
 
 # Providing support for all-content-plugin
 outfitter "All Outfits"
+	# Version 1
 	"Cargo Buffer V1"
 	"Outfit Buffer V1"
 	"Weapon Buffer V1"
 	"Engine Buffer V1"
-	"Bunks Buffer V1"\
+	"Bunks Buffer V1"
+	# Version 2
 	"Cargo Buffer V2"
 	"Outfit Buffer V2"
 	"Weapon Buffer V2"
 	"Engine Buffer V2"
 	"Bunks Buffer V2"
+	# Version 3
+	"Cargo Buffer V3"
+	"Outfit Buffer V3"
+	"Weapon Buffer V3"
+	"Engine Buffer V3"
+	"Bunks Buffer V3"
+	# Special Buffers
 	"Radar Jam Buffer"
 	"Anti-Scan Buffer"
+	# Version 1
 	"Mass Debuffer V1"
 	"Shield Booster V1"
 	"Hull Plating V1"
+	# Version 2
 	"Mass Debuffer V2"
 	"Shield Booster V2"
 	"Hull Plating V2"
+	# Version 3
+	"Mass Debuffer V3"
+	"Shield Booster V3"
+	"Hull Plating V3"
+	# Power
+	"KP-3 Photovoltaic Generator"
 	"KP-6 Photovoltaic Generator"
 	"KP-9 Photovoltaic Generator"
+	"KP-12 Photovoltaic Generator"
+	# Power Storage
 	"Energized Capacitor V1"
 	"Energized Capacitor V2"
+	"Energized Capacitor V3"
+	# Version 1
 	"Shield Module V1"
 	"Repair Module V1"
 	"Refuel System V1"
+	# Version 2
 	"Shield Module V2"
 	"Repair Module V2"
 	"Refuel System V2"
+	# Version 3
+	"Shield Module V3"
+	"Repair Module V3"
+	"Refuel System V3"
+	# Extras
 	"AI Crew Replacement"
 	"AI Captain Replacement"
+	# Cooling
 	"Thermo Cooler V1"
 	"Thermo Cooler V2"
+	"Thermo Cooler V3"
+	# Extras
 	"Jump Drive"
 	"Duel Module"

@@ -14,6 +14,14 @@ outfit "Shield Module V2"
 	"energy consumption" 0.4
 	description "The SM V2 can recharge shield, but draws power all the time."
 
+outfit "Shield Module V3"
+	category "Systems"
+	cost 140112
+	thumbnail "outfit/small shield module"
+	"shield generation" 3.2625
+	"energy consumption" 0.6
+	description "The SM V3 can recharge shield, but draws power all the time."
+
 outfit "Shield Booster V1"
 	category "Systems"
 	cost 5600
@@ -29,6 +37,14 @@ outfit "Shield Booster V2"
 	"shields" 1022
 	"energy consumption" 0.2
 	description "The SB V2 can increase shield capacity even more than V1, but draws power all the time."
+
+outfit "Shield Booster V3"
+	category "Systems"
+	cost 16800
+	thumbnail "outfit/small shield module"
+	"shields" 1584
+	"energy consumption" 0.3
+	description "The SB V3 can increase shield capacity even more than V1, but draws power all the time."
 
 outfit "Repair Module V1"
 	category "Systems"
@@ -46,6 +62,14 @@ outfit "Repair Module V2"
 	"energy consumption" 0.3
 	description "The RM V2 can repair hull, but continuously draws power."
 
+outfit "Repair Module V3"
+	category "Systems"
+	cost 169356
+	thumbnail "outfit/small repair module"
+	"hull repair rate" 2.7125
+	"energy consumption" 0.4
+	description "The RM V3 can repair hull, but continuously draws power."
+
 outfit "Hull Plating V1"
 	category "Systems"
 	cost 5300
@@ -61,6 +85,14 @@ outfit "Hull Plating V2"
 	"hull" 676
 	"energy consumption" 0.02
 	description "The HP V2 adds additional Hull to the ship, but draws power all the time."
+
+outfit "Hull Plating V3"
+	category "Systems"
+	cost 15900
+	thumbnail "outfit/interference plating"
+	"hull" 1048
+	"energy consumption" 0.03
+	description "The HP V3 adds additional Hull to the ship, but draws power all the time."
 
 outfit "Duel Module"
 	category "Systems"
@@ -87,6 +119,14 @@ outfit "Refuel System V2"
 	"energy consumption" 0.19
 	description "The RS V2 can refuel a ship in deep space, continuously draws power."
 
+outfit "Refuel System V3"
+	category "Systems"
+	cost 81840
+	thumbnail "outfit/small collector module"
+	"ramscoop" 135
+	"energy consumption" 0.19
+	description "The RS V3 can refuel a ship in deep space, continuously draws power."
+
 outfit "Cargo Buffer V1"
 	category "Systems"
 	cost 1000
@@ -101,6 +141,14 @@ outfit "Cargo Buffer V2"
 	thumbnail "outfit/blue screwdriver"
 	"cargo space" 70
 	"energy consumption" 0.07
+	description "Want to carry more cargo, at the cost of power you now can!"
+
+outfit "Cargo Buffer V3"
+	category "Systems"
+	cost 3750
+	thumbnail "outfit/blue screwdriver"
+	"cargo space" 105
+	"energy consumption" 0.08
 	description "Want to carry more cargo, at the cost of power you now can!"
 
 outfit "Anti-Scan Buffer"
@@ -135,6 +183,14 @@ outfit "Bunks Buffer V2"
 	"energy consumption" 0.08
 	description "Want to carry more passengers, or perhaps crew to take over another ship, at the cost of power you now can!"
 
+outfit "Bunks Buffer V3"
+	category "Systems"
+	cost 3750
+	thumbnail "outfit/blue screwdriver"
+	"bunks" 30
+	"energy consumption" 0.09
+	description "Want to carry more passengers, or perhaps crew to take over another ship, at the cost of power you now can!"
+
 outfit "Outfit Buffer V1"
 	category "Systems"
 	cost 2100
@@ -149,6 +205,14 @@ outfit "Outfit Buffer V2"
 	thumbnail "outfit/blue screwdriver"
 	"outfit space" 65
 	"energy consumption" 0.03
+	description "Need more outfits, now you can, but only at the cost of power."
+
+outfit "Outfit Buffer V3"
+	category "Systems"
+	cost 7875
+	thumbnail "outfit/blue screwdriver"
+	"outfit space" 101
+	"energy consumption" 0.04
 	description "Need more outfits, now you can, but only at the cost of power."
 
 outfit "Weapon Buffer V1"
@@ -167,6 +231,14 @@ outfit "Weapon Buffer V2"
 	"energy consumption" 0.12
 	description "Want more powerfull weapons, at the cost of power you now can!"
 
+outfit "Weapon Buffer V3"
+	category "Systems"
+	cost 13500
+	thumbnail "outfit/blue screwdriver"
+	"weapon capacity" 85
+	"energy consumption" 0.13
+	description "Want more powerfull weapons, at the cost of power you now can!"
+
 outfit "Engine Buffer V1"
 	category "Systems"
 	cost 6000
@@ -183,6 +255,14 @@ outfit "Engine Buffer V2"
 	"energy consumption" 0.04
 	description "Increase your engine space so you can have bigger engines... at the cost of power."
 
+outfit "Engine Buffer V3"
+	category "Systems"
+	cost 18000
+	thumbnail "outfit/blue screwdriver"
+	"engine capacity" 85
+	"energy consumption" 0.05
+	description "Increase your engine space so you can have bigger engines... at the cost of power."
+
 outfit "Mass Debuffer V1"
 	category "Systems"
 	cost 500
@@ -197,6 +277,14 @@ outfit "Mass Debuffer V2"
 	thumbnail "outfit/red screwdriver"
 	"mass" -50
 	"energy consumption" 0.10
+	description "Reduce your mass so you can go faster... at the cost of power."
+
+outfit "Mass Debuffer V3"
+	category "Systems"
+	cost 3000
+	thumbnail "outfit/red screwdriver"
+	"mass" -75
+	"energy consumption" 0.11
 	description "Reduce your mass so you can go faster... at the cost of power."
 
 outfit "AI Crew Replacement"
@@ -234,6 +322,15 @@ outfit "Thermo Cooler V2"
 	"energy consumption" 0.21
 	description "This makes your ship cool down very quickly when it's about to overheat... but it drains power continuously."
 
+outfit "Thermo Cooler V3"
+	category "Systems"
+	cost 226800
+	thumbnail "outfit/thermoelectric cooler"
+	"active cooling" 140
+	"cooling energy" 2.835
+	"energy consumption" 0.26
+	description "This makes your ship cool down very quickly when it's about to overheat... but it drains power continuously."
+
 outfit "Energized Capacitor V1"
 	category "Power"
 	cost 113000
@@ -250,6 +347,22 @@ outfit "Energized Capacitor V2"
 	"solar collection" 5.0001
 	description "This is a battery combined with builtin solar panels that provide even more power."
 
+outfit "Energized Capacitor V3"
+	category "Power"
+	cost 150000
+	thumbnail "outfit/supercapacitor"
+	"energy capacity" 4813
+	"solar collection" 6.00012
+	description "This is a battery combined with builtin solar panels that provide even more power."
+
+outfit "KP-3 Photovoltaic Generator"
+	category "Power"
+	cost 210000
+	thumbnail "outfit/small photovoltaic"
+	"solar collection" 4.1667
+	"energy generation" 4.1667
+	description "Designed to produce small amounts of power, with a small boost from solar panels."
+
 outfit "KP-6 Photovoltaic Generator"
 	category "Power"
 	cost 400000
@@ -264,6 +377,14 @@ outfit "KP-9 Photovoltaic Generator"
 	thumbnail "outfit/small photovoltaic"
 	"solar collection" 16.6668
 	"energy generation" 16.667
+	description "Designed to mass produce power, with a boost from solar panels."
+
+outfit "KP-12 Photovoltaic Generator"
+	category "Power"
+	cost 1008000
+	thumbnail "outfit/small photovoltaic"
+	"solar collection" 16.6668
+	"energy generation" 25.0005
 	description "Designed to mass produce power, with a boost from solar panels."
 
 outfit "Never Destroy"
