@@ -14,8 +14,8 @@ outfit "Energy Cube"
 	thumbnail "outfit/fallen cube"
 	"mass" 1
 	"module capacity" -1
-	"energy generation" .200 # +0.018
-	"heat generation" .367 # -0.011
+	"energy generation" .200
+	"heat generation" .367
 	description "This cube can be stacked with others like it to produce the power you will need to power your ships."
 	description "These modules are intended to be fitted to a frame."
 
@@ -35,10 +35,10 @@ outfit "Shield Modulator"
 	thumbnail "outfit/fallen shield"
 	"mass" 1
 	"module capacity" -1
-	"shield generation" .066 # +0.004
+	"shield generation" .066
 	"shield energy" .062
-	"energy generation" -.017256 # -0.001111
-	"heat generation" .17256 # -0.01111
+	"energy generation" -.017256
+	"heat generation" .17256
 	description "This unit pulls power from your ship to a single shield node in order to recharge your shields more quickly."
 	description "These modules are intended to be fitted to a frame."
 
@@ -51,7 +51,7 @@ outfit "Thrust Module"
 	"thrust" 1.43
 	"thrusting energy" .134
 	"thrusting heat" .2797
-	"turn" 55.588
+	"turn" 55.699 # +0.111
 	"turning energy" .102
 	"turning heat" .261
 	"reverse thrust" .715
@@ -64,14 +64,103 @@ outfit "Thrust Module"
 	description "This allows you to build your own custom engine."
 	description "These modules are intended to be fitted to a frame."
 
+outfit "Cargo Buffer"
+	category "Systems"
+	cost 1000
+	thumbnail "outfit/blue screwdriver"
+	"cargo space" 7
+	"matrix capacity" -1
+	description "This changes your cargo space so you can hold more stuff."
+	description "These modules are intended to be fitted to a matrix."
+
+outfit "Anti-Scan Buffer"
+	category "Systems"
+	cost 1000
+	thumbnail "outfit/blue screwdriver"
+	"scan interference" 0.05
+	"matrix capacity" -1
+	description "This prevents your ship from exposing illegal outfits/cargo etc."
+	description "These modules are intended to be fitted to a matrix."
+
+outfit "Radar Jam Buffer"
+	category "Systems"
+	cost 1000
+	thumbnail "outfit/blue screwdriver"
+	"radar jamming" 0.8
+	"matrix capacity" -1
+	description "This prevents missiles based on radar to 'see' your ship."
+	description "These modules are intended to be fitted to a matrix."
+
+outfit "Bunks Buffer"
+	category "Systems"
+	cost 1000
+	thumbnail "outfit/blue screwdriver"
+	"bunks" 3
+	"matrix capacity" -1
+	description "This module allows you to carry more passengers, or perhaps crew to take over another ship."
+	description "These modules are intended to be fitted to a matrix."
+
+outfit "Outfit Buffer"
+	category "Systems"
+	cost 2100
+	thumbnail "outfit/blue screwdriver"
+	"outfit space" 6
+	"matrix capacity" -1
+	description "This allows for more outfits to be installed."
+	description "These modules are intended to be fitted to a matrix."
+
+outfit "Weapon Buffer"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/blue screwdriver"
+	"weapon capacity" 5
+	"matrix capacity" -1
+	description "Increase your weapon capacity so you can have bigger weapons."
+	description "These modules are intended to be fitted to a matrix."
+
+outfit "Engine Buffer"
+	category "Systems"
+	cost 6000
+	thumbnail "outfit/blue screwdriver"
+	"engine capacity" 4
+	"matrix capacity" -1
+	description "Increase your engine space so you can have bigger engines."
+	description "These modules are intended to be fitted to a matrix."
+
+outfit "Mass Debuffer"
+	category "Systems"
+	cost 1500
+	thumbnail "outfit/red screwdriver"
+	"mass" -5
+	"matrix capacity" -1
+	description "Reduce your mass so you are more agile."
+	description "These modules are intended to be fitted to a matrix."
+
+outfit "AI Crew Replacement"
+	category "Systems"
+	cost 50000
+	thumbnail "outfit/android"
+	"required crew" -1
+	"matrix capacity" -2
+	description "This allows a computer to interact with ship systems, such as turrets, but this does not increase your defense or offense in hand-to-hand combat."
+	description "These modules are intended to be fitted to a matrix."
+
+outfit "Refuel System"
+	category "Systems"
+	cost 22000
+	thumbnail "outfit/small collector module"
+	"ramscoop" 2
+	"matrix capacity" -2
+	description "This can refuel a ship in deep space."
+	description "These modules are intended to be fitted to a matrix."
+
 outfit "Small Frame"
 	category "Special"
 	"cost" 150000
 	thumbnail "outfit/sbracket"
 	"mass" 9
 	"outfit space" -15
-	"flare sound" "skylance"
-	"module capacity" 55 # +20 for complete modularity
+	"module capacity" 65 # +10
 	description "This frame provides a ship with the proper equipment to attach advanced modules to it."
 
 outfit "Medium Frame"
@@ -80,7 +169,7 @@ outfit "Medium Frame"
 	thumbnail "outfit/mbracket"
 	"mass" 18
 	"outfit space" -30
-	"module capacity" 85 # +30 for complete modularity
+	"module capacity" 95 # +10
 	description "This frame provides more space for advanced modules."
 
 outfit "Large Frame"
@@ -89,15 +178,40 @@ outfit "Large Frame"
 	thumbnail "outfit/lbracket"
 	"mass" 37
 	"outfit space" -50
-	"module capacity" 140 # +40
+	"module capacity" 160 # +20
 	description "This massive frame provides a large amount of space for advanced modules."
+
+outfit "Small Matrix"
+	category "Special"
+	"cost" 140000
+	thumbnail "outfit/small systems core"
+	"outfit space" -10
+	"matrix capacity" 14
+	description "This is a computer used to install some advanced modules that modify ship stats."
+
+outfit "Medium Matrix"
+	category "Special"
+	"cost" 290000
+	thumbnail "outfit/medium systems core"
+	"outfit space" -29
+	"matrix capacity" 31
+	description "This is a computer upgrade from the previous Matrix system."
+
+outfit "Large Matrix"
+	category "Special"
+	"cost" 290000
+	thumbnail "outfit/large systems core"
+	"outfit space" -49
+	"matrix capacity" 80
+	description "This is a super-computer hooked to provide computational power for some advanced modules that modify ship stats."
+
 
 outfit "Warp Drive"
 	category "Systems"
 	cost 6000000
 	thumbnail "outfit/warp"
-	"mass" 30
-	"outfit space" -30
+	"mass" 25 # -5
+	"outfit space" -25 # -5
 	"hyperdrive" 1
 	"jump speed" .3
 	"jump drive" 1
