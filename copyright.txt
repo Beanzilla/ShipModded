@@ -4,7 +4,6 @@ Upstream-Contact: Michael Zahniser <mzahniser@gmail.com>
 Source: https://github.com/endless-sky/endless-sky
 
 Files: *
-Copyright: Beanzilla <beanzilla@red-green.com>
 License: GPL-3+
 
 License: GPL-3+

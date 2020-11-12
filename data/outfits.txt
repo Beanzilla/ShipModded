@@ -4,7 +4,7 @@ outfit "Storage Cell"
 	thumbnail "outfit/fallen cell"
 	"mass" 1
 	"module capacity" -1
-	"energy capacity" 148
+	"energy capacity" 151 # +2
 	description "A small battery, ready to be bundled up with others"
 	description "These modules are intended to be fitted to a frame."
 
@@ -14,8 +14,8 @@ outfit "Energy Cube"
 	thumbnail "outfit/fallen cube"
 	"mass" 1
 	"module capacity" -1
-	"energy generation" .200
-	"heat generation" .367
+	"energy generation" .323
+	"heat generation" .256
 	description "This cube can be stacked with others like it to produce the power you will need to power your ships."
 	description "These modules are intended to be fitted to a frame."
 
@@ -35,29 +35,31 @@ outfit "Shield Modulator"
 	thumbnail "outfit/fallen shield"
 	"mass" 1
 	"module capacity" -1
-	"shield generation" .066
+	"matrix capacity" -1
+	"shield generation" .421 # +0.111
 	"shield energy" .062
 	"energy generation" -.017256
 	"heat generation" .17256
 	description "This unit pulls power from your ship to a single shield node in order to recharge your shields more quickly."
 	description "These modules are intended to be fitted to a frame."
+	description "These modules are intended to be fitted to a matrix."
 
 outfit "Thrust Module"
 	category "Engines"
 	"cost" 38508
 	thumbnail "outfit/fallen engine"
 	"mass" 1
-	"module capacity" -1
+	"module capacity" -2
 	"thrust" 1.43
 	"thrusting energy" .134
 	"thrusting heat" .2797
-	"turn" 55.699 # +0.111
+	"turn" 55.699 
 	"turning energy" .102
 	"turning heat" .261
-	"reverse thrust" .715
+	"reverse thrust" .937 # + 0.222
 	"reverse thrust energy" .134
 	"reverse thrust heat" .2797
-	"flare sprite" "effect/mbracket"
+	"flare sprite" "effect/sbracket"
 		"frame rate" 4
 		"rewind"
 	"flare sound" "skylance"
@@ -141,7 +143,7 @@ outfit "AI Crew Replacement"
 	cost 50000
 	thumbnail "outfit/android"
 	"required crew" -1
-	"matrix capacity" -2
+	"matrix capacity" -3
 	description "This allows a computer to interact with ship systems, such as turrets, but this does not increase your defense or offense in hand-to-hand combat."
 	description "These modules are intended to be fitted to a matrix."
 
@@ -149,7 +151,7 @@ outfit "Refuel System"
 	category "Systems"
 	cost 22000
 	thumbnail "outfit/small collector module"
-	"ramscoop" 2
+	"ramscoop" 3
 	"matrix capacity" -2
 	description "This can refuel a ship in deep space."
 	description "These modules are intended to be fitted to a matrix."
@@ -160,7 +162,7 @@ outfit "Small Frame"
 	thumbnail "outfit/sbracket"
 	"mass" 9
 	"outfit space" -15
-	"module capacity" 65 # +10
+	"module capacity" 75 # +10
 	description "This frame provides a ship with the proper equipment to attach advanced modules to it."
 
 outfit "Medium Frame"
@@ -169,7 +171,7 @@ outfit "Medium Frame"
 	thumbnail "outfit/mbracket"
 	"mass" 18
 	"outfit space" -30
-	"module capacity" 95 # +10
+	"module capacity" 95
 	description "This frame provides more space for advanced modules."
 
 outfit "Large Frame"
@@ -178,7 +180,7 @@ outfit "Large Frame"
 	thumbnail "outfit/lbracket"
 	"mass" 37
 	"outfit space" -50
-	"module capacity" 160 # +20
+	"module capacity" 160
 	description "This massive frame provides a large amount of space for advanced modules."
 
 outfit "Small Matrix"
@@ -186,7 +188,7 @@ outfit "Small Matrix"
 	"cost" 140000
 	thumbnail "outfit/small systems core"
 	"outfit space" -10
-	"matrix capacity" 14
+	"matrix capacity" 54 # +20
 	description "This is a computer used to install some advanced modules that modify ship stats."
 
 outfit "Medium Matrix"
@@ -194,26 +196,26 @@ outfit "Medium Matrix"
 	"cost" 290000
 	thumbnail "outfit/medium systems core"
 	"outfit space" -29
-	"matrix capacity" 31
+	"matrix capacity" 91 # +30
 	description "This is a computer upgrade from the previous Matrix system."
 
 outfit "Large Matrix"
 	category "Special"
-	"cost" 290000
+	"cost" 590000
 	thumbnail "outfit/large systems core"
 	"outfit space" -49
-	"matrix capacity" 80
+	"matrix capacity" 155 # +35
 	description "This is a super-computer hooked to provide computational power for some advanced modules that modify ship stats."
 
 
 outfit "Warp Drive"
 	category "Systems"
-	cost 6000000
+	cost 1250000
 	thumbnail "outfit/warp"
-	"mass" 25 # -5
-	"outfit space" -25 # -5
+	"mass" 25
+	"outfit space" -25
 	"hyperdrive" 1
-	"jump speed" .3
+	"jump speed" .4
 	"jump drive" 1
 	description "This device is somehow able to replicate the function of both a Hyperdrive and a Jump Drive."
 
@@ -222,12 +224,16 @@ outfit "Warp Drive"
 outfit "Never Destroy"
 	category "Special"
 	thumbnail "outfit/unknown"
-	"shields" 99999
-	"hull" 99999
-	"shield generation" 99999
-	"hull repair rate" 99999
-	"cooling" 99999
-	"energy generation" 99999
-	"ramscoop" 999
+	"shields" 999999
+	"hull" 999999
+	"shield generation" 999999
+	"hull repair rate" 999999
+	"cooling" 999999
+	"energy generation" 999999
+	"ramscoop" 9999
+	"hyperdrive" 1
+	"jump speed" 99
+	"jump drive" 1
+	"jump fuel" 0 # Force jumps to use 0 fuel... regardless what the jump is.
 	description "This is clearly a hack"
 	description "This device makes it nearly impossible for your ship to be destroyed."
