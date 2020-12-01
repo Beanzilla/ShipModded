@@ -4,7 +4,7 @@ outfit "Storage Cell"
 	thumbnail "outfit/fallen cell"
 	"mass" 1
 	"module capacity" -1
-	"energy capacity" 151 # +2
+	"energy capacity" 151
 	description "A small battery, ready to be bundled up with others"
 	description "These modules are intended to be fitted to a frame."
 
@@ -35,14 +35,12 @@ outfit "Shield Modulator"
 	thumbnail "outfit/fallen shield"
 	"mass" 1
 	"module capacity" -1
-	"matrix capacity" -1
-	"shield generation" .421 # +0.111
+	"shield generation" .310 # -0.111
 	"shield energy" .062
 	"energy generation" -.017256
 	"heat generation" .17256
 	description "This unit pulls power from your ship to a single shield node in order to recharge your shields more quickly."
 	description "These modules are intended to be fitted to a frame."
-	description "These modules are intended to be fitted to a matrix."
 
 outfit "Thrust Module"
 	category "Engines"
@@ -56,7 +54,7 @@ outfit "Thrust Module"
 	"turn" 55.699 
 	"turning energy" .102
 	"turning heat" .261
-	"reverse thrust" .937 # + 0.222
+	"reverse thrust" .937
 	"reverse thrust energy" .134
 	"reverse thrust heat" .2797
 	"flare sprite" "effect/impulse"
@@ -151,9 +149,9 @@ outfit "Refuel System"
 	cost 22000
 	thumbnail "outfit/small collector module"
 	"ramscoop" 3
-	"matrix capacity" -2
+	"module capacity" -2
 	description "This can refuel a ship in deep space."
-	description "These modules are intended to be fitted to a matrix."
+	description "These modules are intended to be fitted to a frame."
 
 outfit "Small Frame"
 	category "Special"
@@ -161,7 +159,7 @@ outfit "Small Frame"
 	thumbnail "outfit/sbracket"
 	"mass" 9
 	"outfit space" -15
-	"module capacity" 105 # +30
+	"module capacity" 105
 	description "This frame provides a ship with the proper equipment to attach advanced modules to it."
 
 outfit "Medium Frame"
@@ -170,7 +168,7 @@ outfit "Medium Frame"
 	thumbnail "outfit/mbracket"
 	"mass" 18
 	"outfit space" -30
-	"module capacity" 125 # +30
+	"module capacity" 125
 	description "This frame provides more space for advanced modules."
 
 outfit "Large Frame"
@@ -179,7 +177,7 @@ outfit "Large Frame"
 	thumbnail "outfit/lbracket"
 	"mass" 37
 	"outfit space" -50
-	"module capacity" 190 # +30
+	"module capacity" 190
 	description "This massive frame provides a large amount of space for advanced modules."
 
 outfit "Small Matrix"
@@ -187,7 +185,7 @@ outfit "Small Matrix"
 	"cost" 140000
 	thumbnail "outfit/small systems core"
 	"outfit space" -10
-	"matrix capacity" 74 # +20
+	"matrix capacity" 74
 	description "This is a computer used to install some advanced modules that modify ship stats."
 
 outfit "Medium Matrix"
@@ -195,7 +193,7 @@ outfit "Medium Matrix"
 	"cost" 290000
 	thumbnail "outfit/medium systems core"
 	"outfit space" -29
-	"matrix capacity" 111 # +20
+	"matrix capacity" 111
 	description "This is a computer upgrade from the previous Matrix system."
 
 outfit "Large Matrix"
@@ -203,7 +201,7 @@ outfit "Large Matrix"
 	"cost" 590000
 	thumbnail "outfit/large systems core"
 	"outfit space" -49
-	"matrix capacity" 175 # +20
+	"matrix capacity" 175
 	description "This is a super-computer hooked to provide computational power for some advanced modules that modify ship stats."
 
 # This will consume 100 fuel for hyperdrive jumps and 200 for jumpdrive jumps!
@@ -214,7 +212,7 @@ outfit "Warp Drive"
 	"mass" 25
 	"outfit space" -25
 	"hyperdrive" 1
-	"jump speed" .5 # +0.1
+	"jump speed" .6 # +0.1
 	"jump drive" 1
 	description "This device is somehow able to replicate the function of both a Hyperdrive and a Jump Drive."
 

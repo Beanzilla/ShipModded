@@ -10,12 +10,15 @@ outfitter "Ammo South"
 	"Outfit Buffer"
 	"Weapon Buffer"
 	"Engine Buffer"
+	"Small Frame"
+	"Small Matrix"
 
 # Provide some stuff in less techy places
 outfitter "Kraz Basic"
 	"Small Frame"
 	"Medium Frame"
 	"Small Matrix"
+	"Medium Matrix"
 	"Refuel System"
 
 # This should be Kraz in Free Space
@@ -54,5 +57,5 @@ outfitter "All Outfits"
 	"Medium Matrix"
 	"Large Matrix"
 	"Warp Drive"
-	"Never Destroy"
+	"Never Destroy" # Normally you can't directly buy this
 	"Refuel System"
