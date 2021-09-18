@@ -2,20 +2,29 @@ outfit "Storage Cell"
 	category "Power"
 	cost 1875
 	thumbnail "outfit/fallen cell"
-	"mass" 1
 	"module capacity" -1
-	"energy capacity" 151
+	"energy capacity" 175
 	description "A small battery, ready to be bundled up with others"
 	description "These modules are intended to be fitted to a frame."
+
+outfit "War Droid"
+	category "Hand to Hand"
+	cost 35000
+	thumbnail "outfit/war-android"
+	"matrix capacity" -3
+	"capture attack" 3.6
+	"capture defense" 4.8
+	"unplunderable" 1
+	description "This is a special robot designed to explicitly attack or defend your ship, it equates to 6 Laser Rifles"
+	description "This is intended to be fitted to a matrix."
 
 outfit "Energy Cube"
 	category "Power"
 	cost 50000
 	thumbnail "outfit/fallen cube"
-	"mass" 1
 	"module capacity" -1
-	"energy generation" .323
-	"heat generation" .256
+	"energy generation" .535
+	"heat generation" .125
 	description "This cube can be stacked with others like it to produce the power you will need to power your ships."
 	description "These modules are intended to be fitted to a frame."
 
@@ -23,40 +32,56 @@ outfit "Heat Sink"
 	category "Systems"
 	cost 3750
 	thumbnail "outfit/fallen sink"
-	"mass" 1
 	"module capacity" -1
-	"cooling" 1.725
+	"cooling" 1.935
 	description "This heat sink has a modular design."
+	description "These modules are intended to be fitted to a frame."
+
+outfit "Fuel Cube"
+	category "Systems"
+	cost 30000
+	thumbnail "outfit/fallen cube 1"
+	"module capacity" -1
+	"energy generation" -.008
+	"ramscoop" 4
+	"heat generation" .002
+	description "This cube can be stacked with others like it to produce the fuel you will need for your ships."
 	description "These modules are intended to be fitted to a frame."
 
 outfit "Shield Modulator"
 	category "Systems"
 	cost 21622
 	thumbnail "outfit/fallen shield"
-	"mass" 1
 	"module capacity" -1
-	"shield generation" .310 # -0.111
+	"shield generation" .525
 	"shield energy" .062
-	"energy generation" -.017256
-	"heat generation" .17256
 	description "This unit pulls power from your ship to a single shield node in order to recharge your shields more quickly."
+	description "These modules are intended to be fitted to a frame."
+
+outfit "Repair Modulator"
+	category "Systems"
+	cost 11311
+	thumbnail "outfit/fallen shield"
+	"module capacity" -1
+	"hull repair rate" .520
+	"hull energy" .060
+	description "This unit pulls power from your ship to a single hull node in order to repair your hull more quickly."
 	description "These modules are intended to be fitted to a frame."
 
 outfit "Thrust Module"
 	category "Engines"
 	"cost" 38508
 	thumbnail "outfit/fallen engine"
-	"mass" 1
 	"module capacity" -2
-	"thrust" 1.43
+	"thrust" 1.53
 	"thrusting energy" .134
-	"thrusting heat" .2797
-	"turn" 55.699 
+	"thrusting heat" .0263
+	"turn" 65.799 
 	"turning energy" .102
-	"turning heat" .261
-	"reverse thrust" .937
-	"reverse thrust energy" .134
-	"reverse thrust heat" .2797
+	"turning heat" .011
+	"reverse thrust" 1.11
+	"reverse thrust energy" .054
+	"reverse thrust heat" .0163
 	"flare sprite" "effect/impulse"
 	"frame rate" 1.2
 	"flare sound" "impulse"
@@ -70,6 +95,24 @@ outfit "Cargo Buffer"
 	"cargo space" 7
 	"matrix capacity" -1
 	description "This changes your cargo space so you can hold more stuff."
+	description "These modules are intended to be fitted to a matrix."
+
+outfit "Shield Buffer"
+	category "Systems"
+	cost 15000
+	thumbnail "outfit/blue screwdriver"
+	"shields" 7
+	"matrix capacity" -1
+	description "This changes your shield capacity so you can take more damage."
+	description "These modules are intended to be fitted to a matrix."
+
+outfit "Hull Buffer"
+	category "Systems"
+	cost 10000
+	thumbnail "outfit/blue screwdriver"
+	"hull" 6
+	"matrix capacity" -1
+	description "This changes your hull so you can take more damage."
 	description "These modules are intended to be fitted to a matrix."
 
 outfit "Anti-Scan Buffer"
@@ -135,6 +178,15 @@ outfit "Mass Debuffer"
 	description "Reduce your mass so you are more agile."
 	description "These modules are intended to be fitted to a matrix."
 
+outfit "Drag Debuffer"
+	category "Systems"
+	cost 1750
+	thumbnail "outfit/red screwdriver"
+	"drag" -0.5
+	"matrix capacity" -1
+	description "Reduce your drag so you are more agile."
+	description "These modules are intended to be fitted to a matrix."
+
 outfit "AI Crew Replacement"
 	category "Systems"
 	cost 50000
@@ -143,15 +195,6 @@ outfit "AI Crew Replacement"
 	"matrix capacity" -3
 	description "This allows a computer to interact with ship systems, such as turrets, but this does not increase your defense or offense in hand-to-hand combat."
 	description "These modules are intended to be fitted to a matrix."
-
-outfit "Refuel System"
-	category "Systems"
-	cost 22000
-	thumbnail "outfit/small collector module"
-	"ramscoop" 3
-	"module capacity" -2
-	description "This can refuel a ship in deep space."
-	description "These modules are intended to be fitted to a frame."
 
 outfit "Small Frame"
 	category "Special"
@@ -209,18 +252,22 @@ outfit "Warp Drive"
 	category "Systems"
 	cost 1250000
 	thumbnail "outfit/warp"
-	"mass" 25
+	"mass" 20
 	"outfit space" -25
 	"hyperdrive" 1
-	"jump speed" .6 # +0.1
+	"scram drive" 999 # Practically unlimited speeds allow jumping
+	"jump speed" 999 # Practically unlimited speeds allow jumping
 	"jump drive" 1
+	"jump fuel" 75
 	description "This device is somehow able to replicate the function of both a Hyperdrive and a Jump Drive."
+	description "A Warp Drive has the ability to rapidly transport a ship without any delay."
 
 # --- Additional ---
 
 outfit "Never Destroy"
 	category "Special"
 	thumbnail "outfit/unknown"
+	cost 1000000000000
 	"shields" 999999
 	"hull" 999999
 	"shield generation" 999999
@@ -229,8 +276,10 @@ outfit "Never Destroy"
 	"energy generation" 999999
 	"ramscoop" 9999
 	"hyperdrive" 1
-	"jump speed" 99
+	"jump speed" 9999 # Ignore jump speed
 	"jump drive" 1
 	"jump fuel" 0 # Force jumps to use 0 fuel... regardless what the jump is.
-	description "This is clearly a hack"
+	"capture attack" 9999
+	"capture defense" 9999
+	"unplunderable" 1
 	description "This device makes it nearly impossible for your ship to be destroyed."
