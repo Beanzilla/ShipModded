@@ -4,7 +4,7 @@
 
 So you get my plugin by multiple ways...
 
-1. Using `git clone https://github.com/Beanzilla/ShipModded.git to_your_plugins_directory/ShipModded` (Recommended so you can use `git pull` to "update")
+1. Using `git clone https://github.com/Beanzilla/ShipModded.git` (Recommended so you can use `git pull` to "update")
 
 2. Going to [Git Repo](https://github.com/Beanzilla/ShipModded) and selecting to download it as .zip or .tar.gz or some other compressed file (Not Recommended as it doesn't update easily)
 
@@ -28,39 +28,39 @@ My Primary Goal was so game developers/testers can travel through the game with 
 
 My Secondary Goal was to make it so it's "Semi-Balanced" this way someone can still enjoy the original game without needing/depending on my mod/plugin.
 
-My Third Goal was to make it so it's compatible with other plugins/mods that may be installed along side Ship Modded.
+My Third Goal was to make it so it's compatible with other plugins/mods that may be installed along side Ship Modded. (Such as All Content)
 
 ### License Info
 
-This content uses GPL-3+ Licensing. (Yes we use quite a few of Endless Sky's Images and yes we do want to give credit to them, thank you)
+This content uses GPL-3+ Licensing. (Yes we use quite a few of Endless Sky's Images and yes we want to give credit to them, thank you)
 
 ### What is added?
 
 Added Outfits:
 
-* AI Crew Replacement (Reduce that unwanted requried crew)
-* Anti-Scan Buffer (Increase scan interference)
-* Radar Jam Buffer (Increase radar jamming)
-* Bunks Buffer (Increase max crew or passengers)
-* Cargo Buffer (Increase max cargo space)
-* Outfit Buffer (Increase outfit space)
-* Mass Debuffer (Decrease mass, makes the ship accellerate better)
-* Drag Debuffer (Decrease drag, makes the max speed your ship can go higher)
-* Engine Buffer (Increase engine space)
-* Weapon Buffer (Increase weapon space, still need ports and mounts for guns and turrets)
-* Refuel System (Slight ramscoop tech, produces fuel)
-* Storage Cell (Increase energy capacity)
-* Energy Cube (Produces a little energy, but also produces heat)
-* Heat Sink (Reduces heat, cooling)
-* Shield Modulator (Rather efficient shield generator)
-* Hull Modulator (Rather efficient hull repair)
-* Shield Buffer (Increases max shields)
-* Hull Buffer (Increases max hull)
-* Thrust Module (Provides decent thrust, turning and even reverse thrust)
-* Small/Medium/Large Frame (Needed for stuff that provides cooling, shield generation, hull repair, energy production, energy capacity, etc.)
-* Small/Medium/Large Matrix (Needed for stuff that provides alterations to the ship directly, hull, shields, outfit space, cargo space, etc.)
-* Warp Drive (Jump Drive + Hyperdrive + Instant jump at any speed = Warp Drive)
-* War Droid (Increases crew attack and crew defense, used to counter the fact you have less required crew, thus less crew to fight in hand2hand)
+* AI Crew Replacement
+* Anti-Scan Buffer
+* Radar Jam Buffer
+* Bunks Buffer
+* Cargo Buffer
+* Outfit Buffer
+* Mass Debuffer
+* Drag Debuffer
+* Engine Buffer
+* Weapon Buffer
+* Storage Cell
+* Energy Cube
+* Fuel Cube
+* Heat Sink
+* Shield Modulator
+* Repair Modulator
+* Shield Buffer
+* Hull Buffer
+* Thrust Module
+* Small/Medium/Large Frame
+* Small/Medium/Large Matrix
+* Warp Drive
+* War Droid
 
 Modified Outfits:
 
@@ -69,3 +69,4 @@ Modified Outfits:
 Hidden Outfits:
 
 * Never Destroy (Tired of loosing drones/fighters/ships equip this and never worry again) (DANGER: Yes this is a Hack!)
+

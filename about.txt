@@ -1,8 +1,9 @@
 --------------------
 ShipModded
- 0.6 REL
- 09/17/2021
+ 0.7 REL
+ 12/17/2021
  Beanzilla
 --------------------
 
 Modify your ship stats with this mod... so you can change stuff all in game.
+

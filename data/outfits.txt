@@ -23,7 +23,7 @@ outfit "Energy Cube"
 	cost 50000
 	thumbnail "outfit/fallen cube"
 	"module capacity" -1
-	"energy generation" .535
+	"energy generation" .835
 	"heat generation" .125
 	description "This cube can be stacked with others like it to produce the power you will need to power your ships."
 	description "These modules are intended to be fitted to a frame."
@@ -45,6 +45,7 @@ outfit "Fuel Cube"
 	"energy generation" -.008
 	"ramscoop" 4
 	"heat generation" .002
+	"fuel capacity" 10
 	description "This cube can be stacked with others like it to produce the fuel you will need for your ships."
 	description "These modules are intended to be fitted to a frame."
 
@@ -53,7 +54,7 @@ outfit "Shield Modulator"
 	cost 21622
 	thumbnail "outfit/fallen shield"
 	"module capacity" -1
-	"shield generation" .525
+	"shield generation" .625
 	"shield energy" .062
 	description "This unit pulls power from your ship to a single shield node in order to recharge your shields more quickly."
 	description "These modules are intended to be fitted to a frame."
@@ -63,7 +64,7 @@ outfit "Repair Modulator"
 	cost 11311
 	thumbnail "outfit/fallen shield"
 	"module capacity" -1
-	"hull repair rate" .520
+	"hull repair rate" .610
 	"hull energy" .060
 	description "This unit pulls power from your ship to a single hull node in order to repair your hull more quickly."
 	description "These modules are intended to be fitted to a frame."
@@ -101,7 +102,7 @@ outfit "Shield Buffer"
 	category "Systems"
 	cost 15000
 	thumbnail "outfit/blue screwdriver"
-	"shields" 7
+	"shields" 160
 	"matrix capacity" -1
 	description "This changes your shield capacity so you can take more damage."
 	description "These modules are intended to be fitted to a matrix."
@@ -110,7 +111,7 @@ outfit "Hull Buffer"
 	category "Systems"
 	cost 10000
 	thumbnail "outfit/blue screwdriver"
-	"hull" 6
+	"hull" 120
 	"matrix capacity" -1
 	description "This changes your hull so you can take more damage."
 	description "These modules are intended to be fitted to a matrix."
@@ -119,7 +120,7 @@ outfit "Anti-Scan Buffer"
 	category "Systems"
 	cost 1000
 	thumbnail "outfit/blue screwdriver"
-	"scan interference" 0.05
+	"scan interference" 0.075
 	"matrix capacity" -1
 	description "This prevents your ship from exposing illegal outfits/cargo etc."
 	description "These modules are intended to be fitted to a matrix."
@@ -128,7 +129,7 @@ outfit "Radar Jam Buffer"
 	category "Systems"
 	cost 1000
 	thumbnail "outfit/blue screwdriver"
-	"radar jamming" 0.8
+	"radar jamming" 0.95
 	"matrix capacity" -1
 	description "This prevents missiles based on radar to 'see' your ship."
 	description "These modules are intended to be fitted to a matrix."
@@ -137,7 +138,7 @@ outfit "Bunks Buffer"
 	category "Systems"
 	cost 1000
 	thumbnail "outfit/blue screwdriver"
-	"bunks" 3
+	"bunks" 4
 	"matrix capacity" -1
 	description "This module allows you to carry more passengers, or perhaps crew to take over another ship."
 	description "These modules are intended to be fitted to a matrix."
@@ -247,7 +248,7 @@ outfit "Large Matrix"
 	"matrix capacity" 175
 	description "This is a super-computer hooked to provide computational power for some advanced modules that modify ship stats."
 
-# This will consume 100 fuel for hyperdrive jumps and 200 for jumpdrive jumps!
+# This will consume 75 fuel for hyperdrive jumps and 75 for jumpdrive jumps!
 outfit "Warp Drive"
 	category "Systems"
 	cost 1250000
@@ -267,15 +268,16 @@ outfit "Warp Drive"
 outfit "Never Destroy"
 	category "Special"
 	thumbnail "outfit/unknown"
-	cost 1000000000000
+	cost 0 # Make it free, since this only will be availible if all-content plugin is installed (which makes this the least of our worry)
 	"shields" 999999
 	"hull" 999999
 	"shield generation" 999999
 	"hull repair rate" 999999
 	"cooling" 999999
 	"energy generation" 999999
-	"ramscoop" 9999
+	"ramscoop" 99999
 	"hyperdrive" 1
+	"scram drive" 9999 # Ignore jump speed
 	"jump speed" 9999 # Ignore jump speed
 	"jump drive" 1
 	"jump fuel" 0 # Force jumps to use 0 fuel... regardless what the jump is.
