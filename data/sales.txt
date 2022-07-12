@@ -18,6 +18,8 @@ outfitter "Ammo South"
 	"Drag Debuffer"
 	"Small Frame"
 	"Small Matrix"
+#	"Meteor Missile Generator"
+#	"Sidewinder Missile Generator"
 
 # Provide some stuff in less techy places
 outfitter "Kraz Basic"
@@ -27,6 +29,9 @@ outfitter "Kraz Basic"
 	"Medium Matrix"
 	"Fuel Cube"
 	"War Droid"
+	"Money Chip SV1"
+	"Money Chip SV2.5"
+#	"Sidewinder Missile Generator"
 
 # This should be Kraz in Free Space
 outfitter "Kraz Advanced"
@@ -37,8 +42,15 @@ outfitter "Kraz Advanced"
 	"Medium Matrix"
 	"Large Matrix"
 	"AI Crew Replacement"
+	"AI Computer Core"
 	"Warp Drive"
 	"War Droid"
+	"Money Chip SV1"
+	"Money Chip SV2.5"
+	"SV2.5 Unlock License"
+
+shipyard "Tarazed Advanced"
+	"ModBox"
 
 # Obviously, a pirate would want/need to hide illegal cargo/equipment
 outfitter "Pirate Outfits"
@@ -74,3 +86,11 @@ outfitter "All Outfits"
 	"Warp Drive"
 	"Never Destroy" # Normally you can't directly buy this
 	"War Droid"
+	"AI Computer Core"
+	"AI Crew Replacement"
+	"Money Chip SV1"
+	"Money Chip SV2.5"
+	"SV2.5 Unlock License"
+#	"Meteor Missile Generator"
+#	"Sidewinder Missile Generator"
+

@@ -1,0 +1,91 @@
+ship "ModBox"
+	sprite "ship/modbox"
+	thumbnail "thumbnail/modbox"
+	attributes
+		category "Interceptor"
+		cost 1
+		shields 8000
+		hull 8000
+		"required crew" 1
+		bunks 10
+		mass 60
+		drag 2.59
+		"heat dissipation" .27
+		"fuel capacity" 1000
+		ramscoop 80
+		"solar collection" 80
+		"active cooling" 80
+		"cargo space" 80
+		"outfit space" 3000
+		"weapon capacity" 1000
+		"engine capacity" 1000
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Finisher Storage Tube"
+		"Finisher Torpedo" 380
+		"Finisher Maegrolain" 6
+
+		"Quarg Anti-Missile" 2
+		"Quarg Skylance" 2
+
+		"Asteroid Scanner"
+		"Fuel Processor"
+		"Water Coolant System"
+		"Luxury Accommodations"
+		"Antimatter Core"
+		"Nanotech Battery"
+		"Quantum Shield Generator"
+
+		"Medium Graviton Thruster"
+		"Medium Graviton Steering"
+		"Scram Drive"
+
+	gun -3 -44.5 "Finisher Maegrolain"
+	gun 3 -44.5 "Finisher Maegrolain"
+	gun -8.5 -43 "Finisher Maegrolain"
+	gun 8.5 -43 "Finisher Maegrolain"
+	gun -15 -39 "Finisher Maegrolain"
+	gun 15 -39 "Finisher Maegrolain"
+	turret 0 7.5
+	turret 16 -30 "Quarg Anti-Missile"
+	turret -16 -30 "Quarg Skylance"
+	turret 17 30 "Quarg Skylance"
+	turret -17 30 "Quarg Anti-Missile"
+	engine -5 42
+		zoom 1
+	engine 5 42
+		zoom 1
+	engine -12 44
+		zoom 1
+	engine 12 44
+		zoom 1
+	engine -21.5 35
+		zoom 0.75
+	engine 21.5 35
+		zoom 0.75
+	engine -26 2
+		zoom 0.5
+	engine 26 2
+		zoom 0.5
+	"steering engine" -26.5 2
+		zoom 0.5
+		right
+	"steering engine" 26.5 2
+		zoom 0.5
+		left
+	"steering engine" -21.5 35
+		zoom 0.5
+		right
+	"steering engine" 21.5 35
+		zoom 0.5
+		left
+	leak "leak" 70 50
+	leak "flame" 50 80
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description `Surprisingly, someone invested a lot of time, money, and effort into transforming this humble boxwing from a flying coffin into a palatial sarcophagus. At least it is luxurious and shiny!`
+

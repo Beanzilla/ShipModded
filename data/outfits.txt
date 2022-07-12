@@ -188,6 +188,30 @@ outfit "Drag Debuffer"
 	description "Reduce your drag so you are more agile."
 	description "These modules are intended to be fitted to a matrix."
 
+outfit "Money Chip SV1"
+	category "Special"
+	cost 100000 #100k
+	thumbnail "outfit/cc100"
+	income 100
+	unplunderable
+	description "A money chip is a special computer chip which produces credits per day, because the technology is so valuable it is quite expensive."
+
+outfit "Money Chip SV2.5"
+	category "Special"
+	cost 250000 #250k
+	thumbnail "outfit/cc250"
+	income 250
+	licenses "SV2.5 Unlock License"
+	unplunderable
+	description "The SV2.5 is simply a SV1 with some upgrades to it's circuits which produces more credits per day, because the tech is so valuable it is quite expensive."
+
+outfit "SV2.5 Unlock License"
+	category "Special"
+	cost 500000 #500k 0.5m
+	thumbnail "outfit/cc license"
+	unplunderable
+	description "Unlocks the needed know how of a SV2.5, Purchasing this license means you can then purchase and install the SV2.5's."
+
 outfit "AI Crew Replacement"
 	category "Systems"
 	cost 50000
@@ -195,6 +219,17 @@ outfit "AI Crew Replacement"
 	"required crew" -1
 	"matrix capacity" -3
 	description "This allows a computer to interact with ship systems, such as turrets, but this does not increase your defense or offense in hand-to-hand combat."
+	description "These modules are intended to be fitted to a matrix."
+
+outfit "AI Computer Core"
+	category "Systems"
+	cost 1500000
+	thumbnail "outfit/android"
+	"required crew" -1
+	"automaton" 1
+	"matrix capacity" -12
+	description "This allows a computer to perform the role as acting captain of the ship, only install this if you wish the ship to be fully automated requiring no crew."
+	description "Do not apply this outfit to the flagship, it will only break the game."
 	description "These modules are intended to be fitted to a matrix."
 
 outfit "Small Frame"
@@ -247,6 +282,22 @@ outfit "Large Matrix"
 	"outfit space" -49
 	"matrix capacity" 175
 	description "This is a super-computer hooked to provide computational power for some advanced modules that modify ship stats."
+
+#outfit "Meteor Missile Generator"
+#	category "Secondary Weapons"
+#	cost 11000
+#	thumbnail "outfit/meteor storage"
+#	"matrix capacity" -2
+#	"module capacity" -4
+#	"Meteor Missile" .03
+
+#outfit "Sidewinder Missile Generator"
+#	category "Secondary Weapons"
+#	cost 45000
+#	thumbnail "outfit/sidewinder storage"
+#	"matrix capacity" -2
+#	"module capacity" -4
+#	"Sidewinder Missile" .01
 
 # This will consume 75 fuel for hyperdrive jumps and 75 for jumpdrive jumps!
 outfit "Warp Drive"
